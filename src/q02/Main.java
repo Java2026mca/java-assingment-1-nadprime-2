@@ -12,7 +12,7 @@ public class Main {
                 sb.append(row[j]);
             }
             System.out.println(sb);
-            for (int j = i + 1; j > 0; j--) row[j] = row[j] + row[j-1];
+            for (int j = i; j >= 1; j--) row[j] = row[j] + row[j-1];
         }
     }
 }
