@@ -14,8 +14,7 @@ public class Main {
                 sb.append(row[j]);
             }
             System.out.println(sb.toString());
-            
-            for (int j = i; j >= 1; j--) row[j] += row[j - 1];
+            for (int j = i; j >= 1; j--) row[j] += row[j-1];
         }
     }
 }
